@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', ${process.env.NEXT_PUBLIC_GA_ID}');
+          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
         `}
       </Script>
 
